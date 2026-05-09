@@ -7,7 +7,7 @@ type VideoCardProps = {
 
 export function VideoCard({ video }: VideoCardProps) {
   return (
-    <article className="overflow-hidden rounded-3xl border border-white/10 bg-white/[0.06] shadow-[0_18px_45px_rgba(4,7,20,0.55)] transition duration-300 hover:-translate-y-1 hover:border-amber-300/40 hover:shadow-[0_0_30px_rgba(34,211,238,0.2)]">
+    <article className="overflow-hidden rounded-3xl border border-white/10 bg-white/[0.06] shadow-[0_18px_45px_rgba(4,7,20,0.55)] transition duration-300 hover:-translate-y-1 hover:border-[#d8bf8a]/50 hover:shadow-[0_14px_30px_rgba(120,90,45,0.22)]">
       <ExternalLink href={channelUrl} className="group block">
         <div className="relative flex aspect-video items-center justify-center bg-black">
           <img
@@ -22,11 +22,11 @@ export function VideoCard({ video }: VideoCardProps) {
           </div>
         </div>
         <div className="space-y-3 p-5">
-          <p className="inline-flex rounded-full border border-electric/40 bg-electric/10 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wider text-electric">
+          <p className="inline-flex rounded-full border border-[#d8bf8a]/40 bg-[#d8bf8a]/10 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wider text-[#ead9b7]">
             {video.category}
           </p>
-          <h3 className="line-clamp-2 min-h-[3.5rem] text-base font-semibold text-white group-hover:text-electric">{video.title}</h3>
-          <span className="inline-flex items-center rounded-full border border-neon-orange/60 px-4 py-2 text-sm font-semibold text-neon-orange transition group-hover:bg-neon-orange/10">
+          <h3 className="line-clamp-2 min-h-[3.5rem] text-base font-semibold text-white group-hover:text-[#ead9b7]">{video.title}</h3>
+          <span className="inline-flex items-center rounded-full border border-[#d8bf8a]/50 px-4 py-2 text-sm font-semibold text-[#d8bf8a] transition group-hover:bg-[#d8bf8a]/10">
             Ver clip
           </span>
         </div>

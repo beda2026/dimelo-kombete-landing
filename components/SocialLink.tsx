@@ -9,13 +9,13 @@ type SocialLinkProps = {
 export function SocialLink({ label, href, description }: SocialLinkProps) {
   const style =
     label === 'Instagram'
-      ? 'from-pink-500/30 via-purple-500/20 to-orange-500/20 border-pink-300/40'
+      ? 'from-[#3a2330]/70 via-[#2a1d25]/65 to-black/70 border-[#c49b68]/35'
       : label === 'WhatsApp'
-        ? 'from-emerald-500/30 via-green-500/20 to-emerald-300/10 border-emerald-300/40'
-        : 'from-red-500/30 via-orange-500/15 to-black/20 border-red-300/40';
+        ? 'from-emerald-900/65 via-emerald-800/50 to-black/70 border-emerald-300/35'
+        : 'from-red-950/70 via-red-900/60 to-black/70 border-red-400/35';
 
   return (
-    <ExternalLink href={href} className={`rounded-2xl border bg-gradient-to-br p-4 ${style} hover:-translate-y-0.5 transition`}>
+    <ExternalLink href={href} className={`rounded-2xl border bg-gradient-to-br p-4 ${style} shadow-[0_10px_24px_rgba(0,0,0,0.3)] hover:-translate-y-0.5 hover:border-[#d8bf8a]/45 transition`}>
       <p className="text-lg font-bold">{label}</p>
       <p className="mt-1 text-sm text-white/80">{description}</p>
     </ExternalLink>
