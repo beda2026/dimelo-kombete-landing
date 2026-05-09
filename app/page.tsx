@@ -34,7 +34,8 @@ export default function HomePage() {
         </section>
 
         <section className="space-y-4">
-          <h2 className="text-2xl font-bold text-electric">Featured Clips</h2>
+          <h2 className="text-2xl font-bold text-electric">Clips recientes</h2>
+          <p className="text-sm text-white/75 sm:text-base">Contenido, entrevistas y momentos destacados de Dímelo Kombete.</p>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {featuredVideos.map((video) => (
               <VideoCard key={video.title} video={video} />

@@ -7,21 +7,30 @@ type VideoCardProps = {
 
 export function VideoCard({ video }: VideoCardProps) {
   return (
-    <ExternalLink
-      href={channelUrl}
-      className="group block overflow-hidden rounded-2xl border border-white/10 bg-white/5 transition hover:border-electric/60"
-    >
-      <div
-        className="fallback-image"
-        style={{
-          backgroundImage:
-            `linear-gradient(135deg, rgba(255,47,177,.45), rgba(0,194,255,.30), rgba(255,166,0,.35)), url('${video.image}')`,
-        }}
-      />
-      <div className="space-y-1 p-4">
-        <h3 className="font-semibold text-white group-hover:text-electric">{video.title}</h3>
-        <p className="text-sm text-white/70">{video.category}</p>
-      </div>
-    </ExternalLink>
+    <article className="overflow-hidden rounded-2xl border border-white/10 bg-zinc-950/80 shadow-[0_0_20px_rgba(0,194,255,0.12)] transition hover:border-electric/60 hover:shadow-[0_0_30px_rgba(255,47,177,0.22)]">
+      <ExternalLink href={channelUrl} className="group block">
+        <div className="relative flex aspect-video items-center justify-center bg-black">
+          <img
+            src={video.image}
+            alt={video.title}
+            className="h-full w-full object-contain"
+            loading="lazy"
+          />
+          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+          <div className="pointer-events-none absolute left-1/2 top-1/2 flex h-12 w-12 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-white/40 bg-black/55 text-white/90">
+            <span className="ml-0.5 text-base">▶</span>
+          </div>
+        </div>
+        <div className="space-y-3 p-4">
+          <p className="inline-flex rounded-full border border-electric/40 bg-electric/10 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wider text-electric">
+            {video.category}
+          </p>
+          <h3 className="line-clamp-2 font-semibold text-white group-hover:text-electric">{video.title}</h3>
+          <span className="inline-flex items-center rounded-full border border-neon-orange/50 px-3 py-1 text-xs font-medium text-neon-orange transition group-hover:bg-neon-orange/10">
+            Ver clip
+          </span>
+        </div>
+      </ExternalLink>
+    </article>
   );
 }
