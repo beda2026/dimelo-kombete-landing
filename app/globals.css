@@ -8,14 +8,33 @@
 
 body {
   margin: 0;
-  background: radial-gradient(circle at 10% 20%, #1a0831 0%, #04050c 45%, #020205 100%);
+  background:
+    radial-gradient(1200px 700px at 0% 10%, rgba(255, 37, 133, 0.22), transparent 60%),
+    radial-gradient(1100px 760px at 100% 0%, rgba(0, 174, 255, 0.16), transparent 62%),
+    radial-gradient(700px 500px at 50% 100%, rgba(255, 176, 46, 0.08), transparent 70%),
+    linear-gradient(160deg, #05050c 0%, #060714 48%, #08070d 100%);
   font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.16;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 48px 48px, 48px 48px;
+  mask-image: radial-gradient(circle at center, black 20%, transparent 90%);
 }
 
 .bg-urban {
   background-image:
-    radial-gradient(1200px 600px at 0% 0%, rgba(255, 38, 173, 0.2), transparent 60%),
-    radial-gradient(800px 500px at 100% 20%, rgba(0, 194, 255, 0.18), transparent 65%),
+    radial-gradient(1000px 550px at 0% 8%, rgba(255, 38, 173, 0.2), transparent 60%),
+    radial-gradient(900px 520px at 100% 14%, rgba(0, 194, 255, 0.16), transparent 66%),
+    radial-gradient(900px 500px at 50% 55%, rgba(255, 180, 71, 0.07), transparent 72%),
     linear-gradient(135deg, #04040a 0%, #060713 55%, #08070b 100%);
 }
 
