@@ -1,28 +1,58 @@
+export type VideoItem = { title: string; category?: string; image: string };
+export type CategoryItem = { title: string; description: string };
+
 export const channelUrl = 'https://www.youtube.com/@DimeloKombete';
+export const whatsappNumber = '17873473174';
+export const whatsappUrl = `https://wa.me/${whatsappNumber}`;
 
-export type VideoItem = {
-  title: string;
-  category: string;
-  image: string;
-};
+export const socialLinks = [
+  { label: 'YouTube', href: channelUrl, style: 'youtube' },
+  { label: 'Instagram', href: 'https://www.instagram.com/', style: 'instagram' },
+  { label: 'TikTok', href: 'https://www.tiktok.com/', style: 'tiktok' },
+  { label: 'Facebook', href: 'https://www.facebook.com/', style: 'facebook' },
+  { label: 'WhatsApp', href: whatsappUrl, style: 'whatsapp' },
+] as const;
 
-export type CategoryItem = {
-  title: string;
-  description: string;
-};
+export const clips = [
+  {
+    title: 'Drum & Bass Puerto Rico: la escena underground está viva',
+    image: '/assets/dimelo_kombete_youtube_clips/01_drum-bass-puerto-rico-la-escena-underground-esta-viva.png',
+  },
+  {
+    title: 'Cristian "El Capitán" Barreto: leyenda boricua entra al ring',
+    image: '/assets/dimelo_kombete_youtube_clips/02_cristian-el-capitan-barreto-la-leyenda-boricua-entra-al-ring.png',
+  },
+  {
+    title: 'Charla sin censura: Ryan Pino y Jeovanny El Rayo',
+    image: '/assets/dimelo_kombete_youtube_clips/03_charla-sin-censura-ryan-pino-jeovanny-el-rayo.png',
+  },
+  {
+    title: 'La nueva promesa del boxeo latinoamericano: Malik "El Emblema" Quiñones',
+    image: '/assets/dimelo_kombete_youtube_clips/04_la-nueva-promesa-del-boxeo-latinoamericano-malik-el-emblema-quinones.png',
+  },
+  {
+    title: 'Yandiel Lozano, el boxeador que acompaña a Amanda Serrano',
+    image: '/assets/dimelo_kombete_youtube_clips/05_el-boxeador-que-acompana-a-amanda-serrano-yandiel-lozano.png',
+  },
+  {
+    title: 'Chris Punisher Echevarría: entrevista pre pelea',
+    image: '/assets/dimelo_kombete_youtube_clips/06_chris-punisher-echevarria-entrevista-pre-pelea.png',
+  },
+  {
+    title: 'Puerto Rico no duerme: Yankiel El Doctorcito se prepara',
+    image: '/assets/dimelo_kombete_youtube_clips/07_puerto-rico-no-duerme-se-prepara-para-pelear-yankiel-el-doctorcito.png',
+  },
+  {
+    title: 'Puerto Rico también juega en la calle con Easy Splash',
+    image: '/assets/dimelo_kombete_youtube_clips/08_puerto-rico-tambien-juega-en-la-calle-easy-splash.png',
+  },
+] as const;
 
-export const featuredVideos: VideoItem[] = [
-  { title: 'Freestyle del Barrio', category: 'Música', image: '/assets/video-1.jpg' },
-  { title: 'Leyendas del Ring', category: 'Deportes', image: '/assets/video-2.jpg' },
-  { title: 'Street Style Boricua', category: 'Moda & Belleza', image: '/assets/video-3.jpg' },
-  { title: 'Conversaciones de Calle', category: 'Cultura Urbana', image: '/assets/video-4.jpg' },
-  { title: 'Nuevos Talentos PR', category: 'Música', image: '/assets/video-5.jpg' },
-  { title: 'La Nueva Generación', category: 'Cultura Urbana', image: '/assets/video-6.jpg' },
-];
-
-export const categories: CategoryItem[] = [
-  { title: 'Música', description: 'Estrenos, entrevistas y sesiones con el sonido de Puerto Rico.' },
-  { title: 'Deportes', description: 'Disciplina, competencia y orgullo boricua dentro y fuera de la cancha.' },
-  { title: 'Moda & Belleza', description: 'Estilo urbano, tendencias y personalidad con identidad propia.' },
-  { title: 'Cultura Urbana', description: 'Historias reales, comunidad y el pulso creativo de la isla.' },
-];
+export const services = [
+  { icon: '🎙️', title: 'Grabación de voces' },
+  { icon: '🎧', title: 'Sesiones para artistas emergentes' },
+  { icon: '💵', title: 'Coordinación de precios' },
+  { icon: '💬', title: 'Citas por WhatsApp' },
+  { icon: '📱', title: 'Contenido para redes' },
+  { icon: '🚀', title: 'Promoción de clips' },
+] as const;
