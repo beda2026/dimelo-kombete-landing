@@ -27,14 +27,54 @@ export type SocialLinkItem = {
 };
 
 export const clips: ClipItem[] = [
-  { title: 'Drum & Bass en Puerto Rico | La escena underground está viva', category: 'Música', image: '/assets/dimelo_kombete_youtube_clips/01_drum-bass-puerto-rico-la-escena-underground-esta-viva.png', href: youtubeChannelUrl },
-  { title: 'Cristian “El Capitán” Barreto | La leyenda boricua entra al ring', category: 'Deportes', image: '/assets/dimelo_kombete_youtube_clips/02_cristian-el-capitan-barreto-la-leyenda-boricua-entra-al-ring.png', href: youtubeChannelUrl },
-  { title: 'Charla sin censura con Ryan Pino y Jeovanny “El Rayo”', category: 'Entrevistas', image: '/assets/dimelo_kombete_youtube_clips/03_charla-sin-censura-ryan-pino-jeovanny-el-rayo.png', href: youtubeChannelUrl },
-  { title: 'Malik “El Emblema” Quiñones | Nueva promesa del boxeo latinoamericano', category: 'Deportes', image: '/assets/dimelo_kombete_youtube_clips/04_la-nueva-promesa-del-boxeo-latinoamericano-malik-el-emblema-quinones.png', href: youtubeChannelUrl },
-  { title: 'Yandiel Lozano | El boxeador que acompaña a Amanda Serrano', category: 'Deportes', image: '/assets/dimelo_kombete_youtube_clips/05_el-boxeador-que-acompana-a-amanda-serrano-yandiel-lozano.png', href: youtubeChannelUrl },
-  { title: 'Chris “Punisher” Echevarría | Entrevista pre-pelea', category: 'Entrevistas', image: '/assets/dimelo_kombete_youtube_clips/06_chris-punisher-echevarria-entrevista-pre-pelea.png', href: youtubeChannelUrl },
-  { title: 'Puerto Rico no duerme | Yankiel “El Doctorcito” vs Bomba González', category: 'Boxeo', image: '/assets/dimelo_kombete_youtube_clips/07_puerto-rico-no-duerme-se-prepara-para-pelear-yankiel-el-doctorcito.png', href: youtubeChannelUrl },
-  { title: 'Puerto Rico también juega en la calle | Easy Splash', category: 'Cultura urbana', image: '/assets/dimelo_kombete_youtube_clips/08_puerto-rico-tambien-juega-en-la-calle-easy-splash.png', href: youtubeChannelUrl },
+  {
+    title: 'Drum & Bass en Puerto Rico | La escena underground está viva',
+    category: 'Música',
+    image: '/assets/dimelo_kombete_youtube_clips/01_drum-bass-puerto-rico-la-escena-underground-esta-viva.png',
+    href: 'https://www.youtube.com/watch?v=F3obyDGQPoY',
+  },
+  {
+    title: 'Cristian “El Capitán” Barreto | La leyenda boricua entra al ring',
+    category: 'Deportes',
+    image: '/assets/dimelo_kombete_youtube_clips/02_cristian-el-capitan-barreto-la-leyenda-boricua-entra-al-ring.png',
+    href: 'https://www.youtube.com/watch?v=S8xqDMCAg2Q',
+  },
+  {
+    title: 'Charla sin censura con Ryan Pino y Jeovanny “El Rayo”',
+    category: 'Entrevistas',
+    image: '/assets/dimelo_kombete_youtube_clips/03_charla-sin-censura-ryan-pino-jeovanny-el-rayo.png',
+    href: 'https://www.youtube.com/watch?v=bmtNldDJMhg',
+  },
+  {
+    title: 'Malik “El Emblema” Quiñones | Nueva promesa del boxeo latinoamericano',
+    category: 'Deportes',
+    image: '/assets/dimelo_kombete_youtube_clips/04_la-nueva-promesa-del-boxeo-latinoamericano-malik-el-emblema-quinones.png',
+    href: 'https://www.youtube.com/watch?v=r1U1MxItazE',
+  },
+  {
+    title: 'Yandiel Lozano | El boxeador que acompaña a Amanda Serrano',
+    category: 'Deportes',
+    image: '/assets/dimelo_kombete_youtube_clips/05_el-boxeador-que-acompana-a-amanda-serrano-yandiel-lozano.png',
+    href: 'https://www.youtube.com/watch?v=d2yVojTc7W8',
+  },
+  {
+    title: 'Chris “Punisher” Echevarría | Entrevista pre-pelea',
+    category: 'Entrevistas',
+    image: '/assets/dimelo_kombete_youtube_clips/06_chris-punisher-echevarria-entrevista-pre-pelea.png',
+    href: 'https://www.youtube.com/watch?v=aAxGrklK9pk',
+  },
+  {
+    title: 'Puerto Rico no duerme | Yankiel “El Doctorcito” vs Bomba González',
+    category: 'Boxeo',
+    image: '/assets/dimelo_kombete_youtube_clips/07_puerto-rico-no-duerme-se-prepara-para-pelear-yankiel-el-doctorcito.png',
+    href: 'https://www.youtube.com/watch?v=-TvrW4U4x1w',
+  },
+  {
+    title: 'Puerto Rico también juega en la calle | Easy Splash',
+    category: 'Cultura urbana',
+    image: '/assets/dimelo_kombete_youtube_clips/08_puerto-rico-tambien-juega-en-la-calle-easy-splash.png',
+    href: 'https://www.youtube.com/watch?v=uPv-RVp_SjI',
+  },
 ];
 
 export const services: ServiceItem[] = [

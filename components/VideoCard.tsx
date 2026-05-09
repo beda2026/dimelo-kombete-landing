@@ -1,4 +1,4 @@
-import { channelUrl, type VideoItem } from '@/lib/site-data';
+import { type VideoItem } from '@/lib/site-data';
 import { ExternalLink } from './ExternalLink';
 
 type VideoCardProps = {
@@ -8,7 +8,7 @@ type VideoCardProps = {
 export function VideoCard({ video }: VideoCardProps) {
   return (
     <article className="overflow-hidden rounded-3xl border border-white/10 bg-white/[0.06] shadow-[0_18px_45px_rgba(4,7,20,0.55)] transition duration-300 hover:-translate-y-1 hover:border-[#d8bf8a]/50 hover:shadow-[0_14px_30px_rgba(120,90,45,0.22)]">
-      <ExternalLink href={channelUrl} className="group block">
+      <ExternalLink href={video.href} className="group block">
         <div className="relative flex aspect-video items-center justify-center bg-black">
           <img
             src={video.image}
