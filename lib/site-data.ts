@@ -1,6 +1,8 @@
 export const brandName = 'Dímelo Kombete';
 export const brandTagline = 'Media urbana · Música · Deportes · Moda · Belleza';
 
+export const siteUrl = 'https://dimelo-kombete-landing.vercel.app';
+
 export const youtubeChannelUrl = 'https://www.youtube.com/@DimeloKombete';
 export const instagramUrl = 'https://www.instagram.com/dimelokombete/';
 export const whatsappNumber = '17878985634';
