@@ -1,0 +1,70 @@
+{
+  "brand": "Dímelo Kombete",
+  "assets_note": "Thumbnails cropped from provided screenshot without resizing, retouching, or overlay text.",
+  "clips": [
+    {
+      "index": 1,
+      "title": "🔥 Drum & Bass Puerto Rico PR | La Escena Underground Está Viva 💥 🎶",
+      "slug": "drum-bass-puerto-rico-la-escena-underground-esta-viva",
+      "file": "01_drum-bass-puerto-rico-la-escena-underground-esta-viva.png",
+      "width": 311,
+      "height": 175
+    },
+    {
+      "index": 2,
+      "title": "💪 Cristian “El Capitán” Barreto 💥 La Leyenda Boricua Entra al Ring",
+      "slug": "cristian-el-capitan-barreto-la-leyenda-boricua-entra-al-ring",
+      "file": "02_cristian-el-capitan-barreto-la-leyenda-boricua-entra-al-ring.png",
+      "width": 311,
+      "height": 175
+    },
+    {
+      "index": 3,
+      "title": "🔥 Charla Sin Censura con Ryan Pino y Jeovanny El Rayo | La Verdad del Boxeo",
+      "slug": "charla-sin-censura-ryan-pino-jeovanny-el-rayo",
+      "file": "03_charla-sin-censura-ryan-pino-jeovanny-el-rayo.png",
+      "width": 311,
+      "height": 175
+    },
+    {
+      "index": 4,
+      "title": "🔥 La Nueva Promesa del Boxeo Latinoamericano 🥊🔥 | Malik “El Emblema” Quiñones",
+      "slug": "la-nueva-promesa-del-boxeo-latinoamericano-malik-el-emblema-quinones",
+      "file": "04_la-nueva-promesa-del-boxeo-latinoamericano-malik-el-emblema-quinones.png",
+      "width": 311,
+      "height": 175
+    },
+    {
+      "index": 5,
+      "title": "🥊 El Boxeador que Acompaña a Amanda Serrano 🥊🔥 | Yandiel Lozano",
+      "slug": "el-boxeador-que-acompana-a-amanda-serrano-yandiel-lozano",
+      "file": "05_el-boxeador-que-acompana-a-amanda-serrano-yandiel-lozano.png",
+      "width": 311,
+      "height": 175
+    },
+    {
+      "index": 6,
+      "title": "🥊 Chris “Punisher” Echevarría | Entrevista Pre-Pelea | Cartelera de Boxeo",
+      "slug": "chris-punisher-echevarria-entrevista-pre-pelea",
+      "file": "06_chris-punisher-echevarria-entrevista-pre-pelea.png",
+      "width": 311,
+      "height": 175
+    },
+    {
+      "index": 7,
+      "title": "🥊 Puerto Rico no duerme... se prepara para pelear | Yankiel “El Doctorcito”",
+      "slug": "puerto-rico-no-duerme-se-prepara-para-pelear-yankiel-el-doctorcito",
+      "file": "07_puerto-rico-no-duerme-se-prepara-para-pelear-yankiel-el-doctorcito.png",
+      "width": 311,
+      "height": 175
+    },
+    {
+      "index": 8,
+      "title": "🏀 Puerto Rico también juega en la calle PR | Easy Splash es más que baloncesto",
+      "slug": "puerto-rico-tambien-juega-en-la-calle-easy-splash",
+      "file": "08_puerto-rico-tambien-juega-en-la-calle-easy-splash.png",
+      "width": 311,
+      "height": 175
+    }
+  ]
+}
